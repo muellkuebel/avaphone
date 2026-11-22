@@ -1,4 +1,4 @@
-# Romyfon V1.02
+# Romyfon V1.03
 
 Romyfon ist die App auf Avas iPad: Sie zeigt nur das Foto von Romy. Foto antippen ruft Avafon an.
 
