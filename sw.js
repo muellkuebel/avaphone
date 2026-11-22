@@ -1,6 +1,6 @@
-// Avafon V1.01 Service Worker – generiert von scripts/build.mjs
-const VERSION = "V1.01";
-const CACHE = "avafon-v1.01";
+// Romyfon V1.02 Service Worker – generiert von scripts/build.mjs
+const VERSION = "V1.02";
+const CACHE = "avafon-v1.02";
 const MEDIA_PREFIX = "avafon-media-";
 const SHELL = [
   "./",
@@ -65,7 +65,7 @@ self.addEventListener("push", (event) => {
     let data = {};
     try { data = event.data ? event.data.json() : {}; } catch { data = {}; }
     const extra = data.data || {};
-    await self.registration.showNotification(data.title || "Avafon", {
+    await self.registration.showNotification(data.title || "Romyfon", {
       body: data.body || "Romy ruft an",
       icon: "./icons/icon-192.png",
       badge: "./icons/icon-192.png",

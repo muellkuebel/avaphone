@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Avafon",
-  "short_name": "Avafon",
-  "description": "Romy anrufen – Videoanruf von Avas iPad zu Romyfon",
+  "name": "Romyfon",
+  "short_name": "Romyfon",
+  "description": "Romy anrufen – Videoanruf von Avas iPad zu Avafon",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
